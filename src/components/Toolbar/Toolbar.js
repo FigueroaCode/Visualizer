@@ -1,13 +1,8 @@
 import React from 'react';
 import './Toolbar.css';
 
-class Toolbar extends React.Component {
-    constructor(props) {
-      super(props);
-    }
+export default class Toolbar extends React.Component {
     render() {
-      return <h1>Toolbar</h1>;
+        return <h1>Toolbar</h1>;
     }
-  }
-
-export default Toolbar;
+}
