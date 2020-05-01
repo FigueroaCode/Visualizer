@@ -4,13 +4,15 @@ import Toolbar from './components/Toolbar/Toolbar';
 
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <Toolbar/>
-      <Canvas/>
-    </div>
-  );
+class App extends React.Component{
+    render() {
+        return (
+            <div>
+                <Toolbar/>
+                <Canvas/>
+            </div>
+        );
+    }
 }
 
 export default App;

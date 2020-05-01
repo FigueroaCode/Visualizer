@@ -1,5 +1,5 @@
 import React from 'react';
-import './Toolbar.css';
+import styled from 'styled-components';
 
 export default class Toolbar extends React.Component {
     render() {
