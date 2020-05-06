@@ -1,16 +1,20 @@
 import React from 'react';
-import Canvas from './components/Canvas/Canvas';
-import Toolbar from './components/Toolbar/Toolbar';
+import styled from 'styled-components';
 
-import './App.css';
+import Graph2D from './components/Graph2D/Graph2D';
+
+const Main = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+`
 
 class App extends React.Component{
     render() {
         return (
-            <div>
-                <Toolbar/>
-                <Canvas/>
-            </div>
+            <Main>
+                <Graph2D/>
+            </Main>
         );
     }
 }
